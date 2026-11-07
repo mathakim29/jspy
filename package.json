@@ -4,7 +4,7 @@
   "description": "CLI tool to manage python dependencies and wrapper to uv",
   "main": "index.js",
   "bin": {
-    "jspy": "./bin/jspy.ts"
+    "jspy": "./bin/jspy.js"
   },
   "python_deps": [
     "setuptools",

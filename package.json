@@ -1,0 +1,23 @@
+{
+  "name": "jspy",
+  "version": "1.0.0",
+  "description": "CLI tool to manage python dependencies and wrapper to uv",
+  "main": "index.js",
+  "bin": {
+    "jspy": "./bin/jspy.ts"
+  },
+  "python_deps": [
+    "setuptools",
+    "weasyprint",
+    "git+https://github.com/dev6699/rvc-onnx.git"
+  ],
+  "python_version": "3.10",
+  "keywords": [
+    "cli",
+    "uv",
+    "bun",
+    "python",
+    "virtual environment"
+  ],
+  "author": "Luqman Al-Hakim"
+}
